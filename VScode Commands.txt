@@ -1,0 +1,45 @@
+Ctrl+L ---> Select Entire Lines
+Ctrl+Shift+K ---> Delete the lines
+Ctrl+D ---> Search all words in same file and can modify at a time..
+Alt+Up/Down ---> Move the lines up or down
+Ctrl+I ---> Suggestion of input in VS code.
+Ctrl+J ---> Terminal window
+Ctrl+ B ---> Side bar
+Ctrl+W ---> Close the current file.
+Ctrl+K Ctrl+W ---> Close all the files in VS code. 
+Ctrl+Shift+W ---> Close the VS code. 
+Ctrl+/ ---> Comment the lines
+Ctrl+\ ---> Open the split editor
+Ctrl+1/2/3 ---> Move the cursor to different split editors.
+Alt+1/2/3 ---> Move the cursor to different files in single editor.
+Alt+Shift+Up/Down ---> Copy the lines to up or down
+Ctrl+G ---> Go to lines number in page.
+Ctrl+F ---> Find the word in page.
+Ctrl+H ---> Replace the word with different.
+Fn+Home/Home ---> Beginning of lines 
+Fn+End/End ---> Ending of lines.
+Ctrl+K Ctrl+S ---> Keyboard Shortcuts
+Ctrl+Home ---> Beginning of Page
+Ctrl+End ---> Ending of Page.
+Ctrl+Enter ---> Insert a lines below
+Ctrl+Shift+Enter ---> Insert a lines above.
+Ctrl+Shift+N ---> Open a new VS code instance.
+Ctrl+[ ---> Indent of tab in lines
+Ctrl+] ---> Removing of tab in lines.
+Ctrl+K Ctrl+O ---> Open folder command directly.
+Alt+Click ---> Select the multiple places and write in same time.
+Ctrl+Alt+Up/Down ---> Choose multiple lines at a time in same lines.
+Ctrl+Shift+\ ---> Jump to matching bracket..
+Ctrl+Shift+[ ---> Close the bracket region
+Ctrl+Shift+] ---> Open the bracket region
+Ctrl+K 0 ---> Fold all regions
+Ctrl+K J ---> Unfold all regions
+Alt+Z ---> Toggle word wrap
+Ctrl+T ---> Show all symbols.
+Shift+Alt+F ---> Format the code
+Ctrl+K S ---> Save all.
+Ctrl+Shift+T ---> Reopen Closed file
+Ctrl+Tab ---> Open next file
+Ctrl+Shift+Tab ---> Open previous file.
+Shift+Alt+A ---> Open multiline comment.
+

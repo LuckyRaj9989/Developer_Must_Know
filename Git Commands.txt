@@ -1,0 +1,40 @@
+Git Commands:
+1) we can create user credentials in three categories:
+    a) System, b) Global and c) Local
+To add user.Name: git config --global user.name "Lucky Rajesh" / git config --global user.name luckyRajesh
+To add user.Email: git config --global user.email "rajeshkumar.mobbu@gmail.com"
+To add default code editor: git config --global core.editor "code --wait"
+To add carriage return/line feed: git config --global core.autocrlf true/input ---> true is used for windows, input is used for linux and MacOS
+To view all results in code editor: first open editor with command "code". later ---> git config --global -e
+To clear the screen: clear
+To create a new folder: mkdir "FolderName"
+To change directory: cd "FolderName"
+To intialize the git in folder: git init
+To show the list: ls
+To see all files which are hidden too: ls -a
+To see status of all files: (git status)/ (git status -s)
+To add files to staging area: (git add .)/ (git add -A)/ (git add "filename")/ (git add filename1 filename2)/ (git add *.txt)
+To add files to commit area: git commit -m "Commit message"
+To add files to commit without staging: git commit -am "commit message"
+To remove from staging area: git rm --cached "filename" / git restore
+To remove the file from both: git rm "filename"
+To remove latest changes from staging area: git restore --staged "filename"
+To rename the filename: git mv "oldfilename" "newfilename"
+To log all commits: (git log)/ (git log --oneline)/ (git log --reverse)
+To show previos commits: (git show "commitNumber")/ (git show HEAD)/ (git show HEAD~2)/ (git show HEAD~3)/ (git show HEAD:"filename")
+To create a new branch: git branch "branchName"
+To see all branch list: git branch --list / git branch
+To change branch name: git branch -m "oldbranchName" "NewBranchName" 
+To create a new branch and checkout the same: (git checkout -b "branchName")/ (git switch -C "branchName")
+To change the branch: (git checkout "branchName")/ (git switch "branchName")
+To delete the branch: git branch -d "branchName"
+To merge the Dev1 changes to main branch: git merge Dev1(small Branch Name) ---> to Main (Master Branch)
+To abort the merge: git merge --abort
+To view the merged branches: git branch --merged
+To view the unmerged branches: git branch --no-merged
+To clone the repository: git clone url(from GitHub account)
+To fetch the changes from origin: (git fetch origin master)/ (git fetch)/ (git fetch origin)
+To fetch + merge: git pull
+To push the changes to origin: (git push)/ (git push origin master)
+To push sub branch to origin: git push -u origin "branchName"
+To delete branch from origin: git push -d origin "branchName"
