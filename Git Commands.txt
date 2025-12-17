@@ -6,7 +6,7 @@ To add user.Email: git config --global user.email "rajeshkumar.mobbu@gmail.com"
 To add default code editor: git config --global core.editor "code --wait"
 To add carriage return/line feed: git config --global core.autocrlf true/input ---> true is used for windows, input is used for linux and MacOS
 To view all results in code editor: first open editor with command "code". later ---> git config --global -e
-To clear the screen: clear
+To clear the screen: clear/ cls
 To create a new folder: mkdir "FolderName"
 To change directory: cd "FolderName"
 To intialize the git in folder: git init
@@ -20,7 +20,7 @@ To remove from staging area: git rm --cached "filename" / git restore
 To remove the file from both: git rm "filename"
 To remove latest changes from staging area: git restore --staged "filename"
 To rename the filename: git mv "oldfilename" "newfilename"
-To log all commits: (git log)/ (git log --oneline)/ (git log --reverse)
+To log all commits: (git log)/ (git log --oneline)/(git log --oneline --all)/ (git log --reverse)
 To show previos commits: (git show "commitNumber")/ (git show HEAD)/ (git show HEAD~2)/ (git show HEAD~3)/ (git show HEAD:"filename")
 To create a new branch: git branch "branchName"
 To see all branch list: git branch --list / git branch
@@ -38,3 +38,20 @@ To fetch + merge: git pull
 To push the changes to origin: (git push)/ (git push origin master)
 To push sub branch to origin: git push -u origin "branchName"
 To delete branch from origin: git push -d origin "branchName"
+git revert "commitId"
+git revert "commitId" --no-edit
+git reset --soft "CommitId" ---> Comeback to staged
+git reset --hard "CommitId" ---> Delete from directory and repository
+git reset --mixed "CommitId" ---> Comeback to Untracked file
+git rebase master
+git rebase --continue
+git stash (Only added files)
+git stash -u (Untracked files also)
+git stash apply
+git stash drop
+git stash pop (apply + drop)
+git stash list
+git stash clear
+git stash pop "stash@{0}"
+git stash save "SaveMessage"
+git cherry-pick "commitId" --> Should be run in Main branch.
